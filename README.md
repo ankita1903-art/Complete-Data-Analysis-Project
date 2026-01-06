@@ -8,6 +8,23 @@ Identify the best-selling product and top-performing region
 Visualize sales performance using charts
 Document results and insights clearly
 
+Sales_Data_Analysis_Project/
+│
+├── README.md
+├── analysis.ipynb   /   main.py
+├── requirements.txt
+│
+├── data/
+│   └── sales_data.csv
+│
+├── visualizations/
+│   ├── revenue_by_product.png
+│   └── sales_by_region.png
+│
+├── report/
+│   └── sales_analysis_report.pdf
+
+
 The dataset sales_data.csv contains sales transaction records.Each row represents a single sale with information such as: Product,Region,Customer,Quantity Sold,Revenue
 This dataset is directly used in the program for analysis and visualization.
 Visualizations: 
