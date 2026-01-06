@@ -1,0 +1,46 @@
+1. Functional Requirements:
+The system must read sales data from a CSV file.
+The system must clean the dataset by removing missing and duplicate records.
+The system must calculate total sales revenue and total quantity sold.
+The system must analyze sales performance by region.
+The system must generate meaningful insights from the analyzed data.
+The system must export formatted analysis results and insights into CSV files.
+
+2. Non-Functional Requirements:
+The program should be easy to understand and maintain.
+The analysis should be completed within a reasonable execution time.
+The output CSV files should be well-structured and readable.
+The system should be platform-independent.
+The solution should use standard and reliable libraries.
+
+3. Software Requirements:
+Operating System: Windows
+Programming Language: Python 3.14
+Libraries:
+Pandas (for data analysis)
+Matplotlib
+Development Tools:
+Jupyter Notebook 
+
+5. Input Requirements:
+Input file must be in CSV format.
+The dataset must contain the following columns:
+Date, Product, Quantity Price, Customer ID, Region, Total Sales
+
+6. Output Requirements:
+Cleaned dataset saved as a CSV file.
+Formatted analysis output CSV containing:
+Key metrics
+Charts with matplotlib
+Generated insights
+
+7. User Requirements:
+Basic knowledge of Python, visualization using matplotlib knowledge also have some knowledge about economics will help the user to find out the total revenue, best product etc calculations and to run the project.
+Users should be able to modify the dataset without changing the code.
+Outputs should be understandable without technical expertise.
+
+8. Constraints
+The project analyzes only the provided dataset.
+Insights depend on the accuracy of the input data.
+Visualization depends on the given data and how the user select the form of the chart.
+
